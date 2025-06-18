@@ -1,4 +1,2 @@
 #!/bin/bash
-cd /home/ubuntu/flaskapp
-nohup python3 app.py &
-
+nohup python3 /home/ubuntu/flaskapp/app.py > flask.out 2>&1 &
